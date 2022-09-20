@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #3A3E47,
+  #96A1A8) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:70px;
+}
+
+.links{
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.home{
+ display: flex;
+ flex-direction: row;
+
+}
+
+.homeitems{
+   /* background-color: yellow; */
+   margin-top: 10px;
+   margin-left: 80px;
+   padding-left:30px ;
+   padding-top: 10%;
+   width:50%;
+  text-align: left;
+  /* background-image: linear-gradient(to left, #3A3E47,
+  #96A1A8) ; */
+}
+
+.hometext{
+  font-size: 30px;
+}
+
+.atmcardimg{
+  /* background-color: red; */
+  margin-top: 10px;
+  margin-left: 5px;
+  padding-top: 0.2%;
+  padding-left: 25px;
+ 
+}
+
+/*LOGIN*/
+.loginarea{
+ 
+  background-image: url("/home/olga/Development/code/personal-projects/weebank1/src/components/assets/bill.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height:690px;
+}
+.loginformcontainer{
+ 
+  background-image: linear-gradient(to left, #3A3E47,
+  #96A1A8) ;
+  opacity: 0.97;
+  width: 60%;
+  height:80%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+
+.loginformitem{
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+label{
+  padding-right: 5px;
+}
+
+input{
+  border-radius: 8px;
+  width:300px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.nameitem{
+  padding-bottom: 5px;
+}
+
+.passworditem{
+  padding-bottom: 5px;
+}
+.loginbtn{
+  background-color:#00040F;
+  color:white ;
+  padding: 5px;
+  border-radius: 5px;
+  width:100px;
+  /* color:#5CE1E6; */
+}
+
+
+
+
+/*Sign up*/
+.signuparea{
+  /* background: red; */
+  background-image: url("/home/olga/Development/code/personal-projects/weebank1/src/components/assets/bill.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height:690px;
+}
+.signupformcontainer{
+  /* background-color:#96A1A8 ; */
+  /* background-image: linear-gradient(to left, #3A3E47,
+  #3c4347) ; */
+  background: #1f6466;
+  width: 60%;
+  height:80%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+
+.signupformitem{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.emailitem{
+  padding-bottom: 5px;
+
+}
